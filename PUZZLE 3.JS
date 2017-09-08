@@ -2,6 +2,7 @@ P3
 
 Down
 Down
+GET COLOR
 SAVE COLOR
 Down
 Down
