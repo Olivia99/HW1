@@ -1,15 +1,15 @@
-P5
-RECIPE 1
-	RIGHT
-	RIGHT
-	IF
-	  RED, Up
-	  BLUE, Down
------------------
-CODE:
-RECIPE 1
-RECIPE 1
-RECIPE 1
-RIGHT
-RIGHT
-RIGHT
+function running() {
+	right();
+	right();
+	if(getColor()=="red"){
+   up();
+}if(getColor()=="blue"){
+	down();
+}
+}
+running();
+running();
+running();
+right();
+right();
+right();
