@@ -1,15 +1,12 @@
-P3
-
-Down
-Down
-GET COLOR
-SAVE COLOR
-Down
-Down
-Down
-Right
-Right
-SET COLOR
-Right
-Right
-Up
+down();
+down();
+var firstColor=getColor();
+down();
+down();
+down();
+right();
+right();
+setColor(firstColor);
+right();
+right();
+up();
