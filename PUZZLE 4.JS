@@ -1,19 +1,17 @@
-DOWN
-DOWN
-DOWN
-DOWN
-RIGHT
-GET COLOR
-SAVE COLOR
-DOWN
-SET COLOR
-RIGHT
-RIGHT
-UP
-RIGHT
-GET COLOR
-SAVE COLOR
-DOWN
-SET COLOR 
-RIGHT
-RIGHT
+down();
+down();
+down();
+down();
+right();
+var firstColor=getColor();
+down();
+setColor(firstColor);
+right();
+right();
+up();
+right();
+var secondColor=getColor();
+down();
+setColor(secondColor);
+right();
+right();
