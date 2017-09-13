@@ -1,3 +1,41 @@
+function directiondown(){
+  down();
+  down();
+  down();
+  down();
+  down();
+  down();
+  down();
+  right();
+}
+function directionup(){
+  up();
+  up();
+  up();
+  up();
+  up();
+  up();
+  up();
+  right();
+
+}
+
+down();
+directiondown();
+right();
+directionup();
+right();
+directiondown();
+right();
+directionup();
+right();
+directiondown();
+
+
+
+
+
+
 SOLUTION1:
 
 RECIPE [DIRECTION] 
