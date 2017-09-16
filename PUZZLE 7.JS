@@ -1,21 +1,21 @@
-function running(){
- while(getColor()!="red"){
-    down();
-}
- right();
- right();
-}
-
-function runningtwo(){
-  while(getColor()!="red"){
-    up();
-  }
-  right();
-  right();
-}
-
-running();
-runningtwo();
-running();
-runningtwo();
-running();
+-RECIPE DOWN
+ -	REPEAT IF GETCOLOR IS NOT RED
+ -		DOWN
+ -	IF GET COLOR IS RED
+ -		RIGHT
+ -RECIPE UP
+ -	REPEAT IF GETCOLOR IS NOT RED
+ -		UP
+ -	IF GET COLOR IS RED
+ -		RIGHT
+ ----------------------------------------
+ -CODE
+ -	RECIPE DOWN,
+ -	RIGHT
+ -	RECIPE UP,
+ -	RIGHT
+ -	RECIPE DOWN,
+ -	RIGHT
+ -	RECIPE UP,
+ -	RIGHT
+ -	RECIPE DOWN
