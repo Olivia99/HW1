@@ -1,16 +1,17 @@
-down();	
-down();
-down();
-down();
-down();
-down();
-right();
-right();
-right();
-up();
-up();
-right();
-right();
-down();
-down();
-down();
+-P2
+ -Down	
+ -Down
+ -Down
+ -Down
+ -Down
+ -Down
+ -Right
+ -Right
+ -Right
+ -Up
+ -Up
+ -Right
+ -Right
+ -Down
+ -Down
+ -Down
