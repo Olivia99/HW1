@@ -1,24 +1,12 @@
-right();
-var firstColor=getColor();
-	if(getColor()=="red"){
-	up();
-  up();
-  up();
-	direction=0
-}else{
-  down();
-  down();
-  down();
-  direction=1
-}
-var secondColor=getColor();
-if(getColor()=="blue"){
-  right();
-}if(getColor()=="red"){
-  left();
-}
-if("direction=0"){
-  up();
-}if("direction=1"){
-  down();
-}
+
+ -RIGHT
+ -GET COLOR
+ -	IF GETCOLOR IS RED, UP
+ -	IF GETCOLOR IS BLUE, DOWN
+ -	SAVE DIRECTION1
+ -DIRECTION1 
+ -DIRECTION1
+ -GET COLOR
+ -	IF GETCOLOR IS RED, LEFT
+ -	IF GETCOLOR IS BLUE, RIGHT
+ -DIRECTION1 
